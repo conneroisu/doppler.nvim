@@ -1,11 +1,8 @@
 # Doppler Neovim Plugin
 
 
-Via github web page:
-
 ## Features and structure
 
-- 100% Lua
 
 ### Plugin structure
 
