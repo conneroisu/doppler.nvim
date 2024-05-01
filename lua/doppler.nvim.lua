@@ -1,5 +1,5 @@
 -- main module file
-local module = require("doppler.nvim.module")
+local module = require("doppler.module")
 
 ---@class Config
 ---@field opt string Your config option

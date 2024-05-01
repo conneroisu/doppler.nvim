@@ -1,4 +1,4 @@
-vim.api.nvim_create_user_command("DopplerConfigs", require("doppler.nvim").hello, {})
+vim.api.nvim_create_user_command("DopplerConfigs", require("doppler").hello, {})
 
 -- set -a
 -- source <(doppler secrets download --no-file --format env)
