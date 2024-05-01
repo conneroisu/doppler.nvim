@@ -1,9 +1,9 @@
 ---@class CustomModule
 local M = {}
 
----@return string
-M.my_first_function = function(greeting)
-  return greeting
+---@return nil
+M.doppler_configs = function()
+  vim.cmd("!doppler configs")
 end
 
 return M
