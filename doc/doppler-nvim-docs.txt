@@ -5,6 +5,7 @@ Table of Contents                        *doppler-nvim-docs-table-of-contents*
 
 1. Doppler Neovim Plugin             |doppler-nvim-docs-doppler-neovim-plugin|
   - Features and structure|doppler-nvim-docs-doppler-neovim-plugin-features-and-structure|
+  - Installation/Usage|doppler-nvim-docs-doppler-neovim-plugin-installation/usage|
 
 ==============================================================================
 1. Doppler Neovim Plugin             *doppler-nvim-docs-doppler-neovim-plugin*
@@ -12,8 +13,26 @@ Table of Contents                        *doppler-nvim-docs-table-of-contents*
 
 FEATURES AND STRUCTURE*doppler-nvim-docs-doppler-neovim-plugin-features-and-structure*
 
+Injects doppler secrets into your neovim environment based on the doppler
+configs for the project.
 
-PLUGIN STRUCTURE ~
+
+INSTALLATION/USAGE*doppler-nvim-docs-doppler-neovim-plugin-installation/usage*
+
+Lazy.nvim is a plugin manager that allows you to load plugins on demand. To
+install this plugin, add the following to your `init.lua`
+
+>lua
+    return {
+        "conneroisu/doppler.nvim",
+        dependencies = {
+            'nvim-lua/plenary.nvim',
+        },
+    }
+<
+
+
+PLUGINSTRUCTURE ~
 
 >
     .
