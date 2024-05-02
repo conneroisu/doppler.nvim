@@ -3,6 +3,22 @@
 
 ## Features and structure
 
+Injects doppler secrets into your neovim environment based on the doppler configs for the project.
+
+## Installation/Usage
+
+Lazy.nvim is a plugin manager that allows you to load plugins on demand. To install this plugin, add the following to your `init.lua`:
+
+```lua
+return {
+    "conneroisu/doppler.nvim",
+    dir = "/run/media/conner/source/001Repos/doppler.nvim",
+    dependencies = {
+        'nvim-lua/plenary.nvim',
+    },
+}
+```
+
 
 ### Plugin structure
 
