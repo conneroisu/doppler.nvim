@@ -12,7 +12,6 @@ Lazy.nvim is a plugin manager that allows you to load plugins on demand. To inst
 ```lua
 return {
     "conneroisu/doppler.nvim",
-    dir = "/run/media/conner/source/001Repos/doppler.nvim",
     dependencies = {
         'nvim-lua/plenary.nvim',
     },
