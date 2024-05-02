@@ -1,4 +1,4 @@
-*doppler-nvim-docs.txt*      For Neovim >= 0.8.0      Last change: 2024 May 01
+*doppler-nvim-docs.txt*      For Neovim >= 0.8.0      Last change: 2024 May 02
 
 ==============================================================================
 Table of Contents                        *doppler-nvim-docs-table-of-contents*
