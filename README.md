@@ -18,21 +18,32 @@ return {
 }
 ```
 
+## Why?
+
+Sometimes your tests require environmental secrets. 
+
+This plugin allows you to automatically inject them into your neovim environment when launching neovim inside of a known doppler project.
 
 ### Plugin structure
+
+The following is the structure of the project.
 
 ```
 .
 ├── lua
-│   ├── plugin_name
+│   ├── doppler
 │   │   └── module.lua
-│   └── plugin_name.lua
+│   └── doppler.lua
 ├── Makefile
 ├── plugin
-│   └── plugin_name.lua
+│   └── doppler.lua
 ├── README.md
 ├── tests
 │   ├── minimal_init.lua
-│   └── plugin_name
-│       └── plugin_name_spec.lua
+│   └── doppler
+│       └── doppler_spec.lua
 ```
+### Development 
+
+Tests in Github actions :) 
+Automatic Doc Generation 😄
