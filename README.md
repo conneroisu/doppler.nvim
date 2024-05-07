@@ -3,7 +3,7 @@
 
 ## Features and structure
 
-Injects doppler secrets into your neovim environment based on the doppler configs for the project.
+Injects [doppler](https://dashboard.doppler.com/) secrets into your neovim environment based on the doppler configs for the project.
 
 ## Installation/Usage
 
